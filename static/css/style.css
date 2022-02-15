@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    gap: 20px;
+    background-color: gray;
+}
+
+.container button,
+.container h2,
+.container select,
+.container form {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form button {
+    background-color: #e4bf2a;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+    
+}
+
+h1{
+    color: #e4bf2a;
+}
